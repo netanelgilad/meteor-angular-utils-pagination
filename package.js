@@ -2,7 +2,7 @@ Package.describe({
   name: 'urigo:angular-utils-pagination',
   summary: 'Magical automatic pagination for anything in AngularJS',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/Urigo/meteor-angular-utils-pagination.git'
 });
 
 Package.onUse(function(api) {
