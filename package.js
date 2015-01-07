@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
-  api.use('urigo:angular@0.5.1', 'client');
+  api.use('urigo:angular@0.6.0-alpha', 'client');
 
   api.addFiles(['dirPagination.tpl', 'dirPagination.js'],'client');
 });
