@@ -20,7 +20,7 @@
      * Config
      */
     var moduleName = 'angularUtils.directives.dirPagination';
-    var templatePath = 'directives/pagination/dirPagination.tpl.html';
+    var templatePath = 'directives/pagination/dirPagination.tpl';
 
     /**
      * Module
@@ -177,7 +177,7 @@
 
         return {
             restrict: 'AE',
-            template: UiRouter.template('dirPagination.tpl.html'),
+            templateUrl: 'packages/urigo_angular-utils-pagination/dirPagination.tpl',
             scope: {
                 maxSize: '=?',
                 onPageChange: '&?'

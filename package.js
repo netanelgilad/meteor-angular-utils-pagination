@@ -9,10 +9,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use('urigo:angular@0.5.1', 'client');
-  api.use('urigo:angular-ui-router@0.6.1', 'client');
-  api.use(['templating'], 'client');
 
-  api.addFiles(['dirPagination.tpl.html', 'dirPagination.js'],'client');
+  api.addFiles(['dirPagination.tpl', 'dirPagination.js'],'client');
 });
 
 Package.onTest(function(api) {
